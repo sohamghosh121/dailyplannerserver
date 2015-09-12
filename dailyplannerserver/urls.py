@@ -18,7 +18,7 @@ from django.contrib import admin
 import views
 
 urlpatterns = [
-    url(r'^healthCheck/', views.healthCheck),
+    url(r'^healthCheck', views.healthCheck),
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^getLocations', views.getLocations),
 ]
