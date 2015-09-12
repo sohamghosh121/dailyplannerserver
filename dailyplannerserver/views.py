@@ -1,5 +1,7 @@
 from django.http import HttpResponse
 
+def healthCheck():
+	return HttpResponse('It\'s all good!')
 
 def getLocations():
 	return HttpResponse('ok')
